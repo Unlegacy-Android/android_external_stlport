@@ -3,6 +3,8 @@
 # new devices from making the same mistakes.
 STLPORT_WHITELIST := \
     deb \
+    espresso3g \
+    espresso \
     flo \
     flounder \
     fugu \
@@ -11,7 +13,7 @@ STLPORT_WHITELIST := \
     mako \
     manta \
     shamu \
-    tilapia \
+    tilapia
 
 ifneq (,$(filter $(TARGET_DEVICE),$(STLPORT_WHITELIST)))
 
