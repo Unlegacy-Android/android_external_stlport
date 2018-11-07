@@ -13,7 +13,8 @@ STLPORT_WHITELIST := \
     mako \
     manta \
     shamu \
-    tilapia
+    tilapia \
+    transformer
 
 ifneq (,$(filter $(TARGET_DEVICE),$(STLPORT_WHITELIST)))
 
